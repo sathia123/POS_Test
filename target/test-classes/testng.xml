@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="POS Malaysia">
+	<listeners>
+		<listener class-name="com.example.listeners.ExtentTestListener" />
+	</listeners>
+
+	<test name="RateTests">
+		<classes>
+			<class name="com.example.tests.RateTest" />
+		</classes>
+	</test>
+</suite>
